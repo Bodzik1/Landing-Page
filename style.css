@@ -2,12 +2,15 @@
   padding: 0;
   margin: 0;
 }
+header {
+  background-color: #1f2937;
+  padding-bottom: 100px;
+}
 
 .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #1f2937;
 }
 
 .nav {
@@ -22,4 +25,34 @@
 .logo {
   width: 125px;
   margin-left: 150px;
+}
+
+li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.Main-Body {
+  margin-left: 150px;
+}
+
+.Main-Body h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin-top: 100px;
+}
+.Main-Body h4 {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.Main-Body button {
+  display: flex;
+  margin-top: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 35px;
+  justify-content: center;
 }
