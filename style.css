@@ -34,7 +34,15 @@ li a {
 }
 
 .Main-Body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-left: 150px;
+}
+
+.Main-Body div.text {
+  display: flex;
+  flex-direction: column;
 }
 
 .Main-Body h1 {
@@ -43,16 +51,25 @@ li a {
   color: #f9faf8;
   margin-top: 100px;
 }
+
 .Main-Body h4 {
   color: #e5e7eb;
   font-size: 18px;
 }
 
 .Main-Body button {
-  display: flex;
-  margin-top: 5px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-right: 35px;
-  justify-content: center;
+  margin-top: 15px;
+  padding: 10px 30px;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  text-align: center;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.Main-Body .Stock {
+  width: 50%;
+  margin-right: 150px;
 }
