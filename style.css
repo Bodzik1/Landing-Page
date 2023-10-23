@@ -159,3 +159,12 @@ main div.ctab button.ctab-btn {
   font-weight: bolder;
   font-size: large;
 }
+
+footer div.footer-container {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
