@@ -19,12 +19,12 @@ header {
   text-align: center;
   list-style: none;
   gap: 25px;
-  margin-right: 150px;
+  margin-right: 100px;
 }
 
 .logo {
   width: 125px;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 li a {
@@ -33,33 +33,35 @@ li a {
   color: #e5e7eb;
 }
 
-.Main-Body {
+.Top-Body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 150px;
+  margin-left: 100px;
+}
+.Top-Body .text {
+  flex: 1;
+  order: 1;
 }
 
-.Main-Body div.text {
-  display: flex;
-  flex-direction: column;
-}
-
-.Main-Body h1 {
+.Top-Body h1 {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
   margin-top: 100px;
 }
 
-.Main-Body h4 {
+.Top-Body h4 {
   color: #e5e7eb;
   font-size: 18px;
 }
 
-.Main-Body button {
+.Top-Body button {
   margin-top: 15px;
-  padding: 10px 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 22px;
+  padding-right: 22px;
   border-radius: 8px;
   background-color: #3882f6;
   color: white;
@@ -69,7 +71,40 @@ li a {
   font-size: medium;
 }
 
-.Main-Body .Stock {
+.Top-Body .Stock {
+  order: 2;
   width: 50%;
-  margin-right: 150px;
+  margin-right: 100px;
+}
+
+main h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+main div.info-container {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+main div.info p {
+  text-align: center;
+}
+
+#content {
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 5px solid #3882f6;
+  border-radius: 8px;
+}
+
+.qoute-container {
+  background-color: #e5e7eb;
 }
