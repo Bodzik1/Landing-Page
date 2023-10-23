@@ -127,3 +127,11 @@ div.qoute-container div.qoute p {
   font-weight: bolder;
   font-size: larger;
 }
+
+main div.ctab {
+  background-color: #3882f6;
+}
+main div.ctab div.ctab-text {
+  color: white;
+  display: flex;
+}
