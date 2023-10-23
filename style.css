@@ -58,10 +58,7 @@ li a {
 
 .Top-Body button {
   margin-top: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding: 15px 22px;
   border-radius: 8px;
   background-color: #3882f6;
   color: white;
@@ -130,8 +127,35 @@ div.qoute-container div.qoute p {
 
 main div.ctab {
   background-color: #3882f6;
-}
-main div.ctab div.ctab-text {
-  color: white;
+  height: 200px;
+  margin: 100px 300px;
+  border-radius: 8px;
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+main div.ctab div.ctab-text {
+  padding-left: 90px;
+}
+
+div.ctab-text #ctab {
+  color: white;
+}
+
+div.ctab-text h3#ctab {
+  color: #e5e7eb;
+}
+
+main div.ctab button.ctab-btn {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  background-color: #3882f6;
+  color: white;
+  border: 3px solid white;
+  border-radius: 4px;
+  margin-left: 120px;
+  font-weight: bolder;
+  font-size: large;
 }
