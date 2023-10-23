@@ -107,16 +107,23 @@ main div.info p {
 
 .qoute-container {
   background-color: #e5e7eb;
-  margin-top: 100px;
-  padding-bottom: 200px;
-}
-
-.qoute-container p {
+  margin-top: 150px;
+  height: 350px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.qoute-container div.qoute p {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
   color: #1f2937;
+}
+
+.qoute-container p.qouteded {
+  padding-left: 575px;
+  font-weight: bolder;
+  font-size: larger;
 }
